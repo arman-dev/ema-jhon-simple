@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './assets/componants/Header/Header'
 import Shop from './assets/componants/Shop/Shop'
+// deploy site: apathetic-time.surge.sh
 
 function App() {
   const [count, setCount] = useState(0)
