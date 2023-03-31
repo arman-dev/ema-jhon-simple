@@ -2,11 +2,10 @@ import React from 'react';
 import './Cart.css'
 const Cart = (props) => {
     const cart = props.cart;
-    console.log(cart.shipping);
 
     let totalPrice = 0;
     let totalShipping = 0;
-
+    console.log(cart);
     for (const product of cart){
         totalPrice = totalPrice + product.price;
         totalShipping = totalShipping + product.shipping;
